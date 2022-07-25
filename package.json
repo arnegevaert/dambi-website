@@ -1,0 +1,25 @@
+{
+  "name": "dambi-website",
+  "version": "1.0.0",
+  "description": "To serve: ```bash $ bundle exec jekyll serve ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnegevaert/dambi-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arnegevaert/dambi-website/issues"
+  },
+  "homepage": "https://github.com/arnegevaert/dambi-website#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "cssnano": "^5.1.12",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.6"
+  }
+}
