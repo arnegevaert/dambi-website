@@ -7,9 +7,15 @@
   </head>
   <body>
     {% include navbar.html %}
-    <h1>{{ page.title }}</h1>
+    <div class="container w-full mx-auto py-4 items-center flex flex-col">
+
+    <h1 class="font-bold text-gray-800 uppercase text-5xl">{{ page.title }}</h1>
+    </div>
+
+    <div class="container mx-auto flex flex-wrap py-6">
     
     {{ content }}
 
+    </div>
   </body>
 </html>
