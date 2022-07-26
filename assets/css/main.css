@@ -1,0 +1,10 @@
+---
+---
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+    @apply text-sky-700 hover:text-sky-500
+}
